@@ -1,0 +1,61 @@
+/* Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+section {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label, input, button {
+  margin-top: 10px;
+}
+
+input[type="text"], input[type="file"] {
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#uploadStatus, #downloadStatus {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
